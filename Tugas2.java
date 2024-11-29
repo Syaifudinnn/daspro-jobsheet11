@@ -49,10 +49,10 @@ public class Tugas2 {
         String menuTertinggi = "";
 
         //cari menu dgn penjualan tertinggi
-        for (int i = 0; i < menu.length; i++) {
+        for (int i = 0; i < menu.length; i++) { //loop untuk menu ke 1
             int totalPenjualan = 0;
 
-            //hitung total penjualan menu ke i
+            //hitung total penjualan hari ke i
             for (int j = 0; j < 7; j++) {
                 totalPenjualan += dataPenjualan[i][j];
             }
